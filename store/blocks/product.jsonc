@@ -2,8 +2,8 @@
   "store.product": {
     "children": [ 
       "breadcrumb",
-      "flex-layout.row#main",
-      "flex-layout.col#left",
+      "flex-layout.row#main",/*
+      "flex-layout.col#left",*/
       "shelf.relatedProducts"
     ]
   },
@@ -54,8 +54,7 @@
       "product-brand"
     ]
   },
-  "product-brand":{
-    
+  "product-brand":{    
     "props":{
       "height":30,
       "displayMode": "logo"
