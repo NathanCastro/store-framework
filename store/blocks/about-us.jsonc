@@ -2,7 +2,8 @@
 {
   "store.custom#about-us": {
     "blocks": [       
-      "tab-layout#home"       
+      "tab-layout#home",
+      "iframe"      
     ]
   },
   "tab-layout#home":{
@@ -28,7 +29,7 @@
   "tab-list.item#home2":{
     "props":{
     "tabId":"electronics",
-    "label": "Electronics",
+    "label": "Instagram",
     "defaultActiveTab": true
     }
   },
@@ -68,7 +69,13 @@
       "textPosition": "CENTER",
       "font": "t-heading-3"
     }
+  },
+  "iframe": {
+    "props": {
+      "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+      "width": 800,
+      "height": 1000
+    }
   }
-
     
 }
