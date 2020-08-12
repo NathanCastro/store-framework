@@ -6,7 +6,8 @@
       "itemProps": {
         "text": "Major Aplliances"
       }
-    }
+    },
+      "blocks": ["vtex.menu@2.x:submenu#major"]
   },
   "menu-item#small-appliances": {
       "props":
@@ -17,7 +18,8 @@
         "categoryId": 2, 
         "text": "Small Appliances"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#small"]
   },
   "menu-item#electronics": {
       "props":
@@ -28,7 +30,9 @@
         "categoryId": 3, 
         "text": "Electronics"
       }
-    }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#electronics"]
+
   },
   "menu-item#refrigerators": {
       "props":
@@ -128,45 +132,5 @@
         "text": "Cameras"
       }
     }
-  },
-  "vtex.menu@2.x:menu#categories": {
-    "children": [
-      "menu-item#major-appliances",
-      "menu-item#small-appliances",
-      "menu-item#electronics"
-    ],
-    "props":{
-      "orientation": "horizontal"
-    }
-  },
-  "vtex.menu@2.x:menu#small": {
-    "children": [
-      "menu-item#mixers",
-      "menu-item#toasters",
-      "menu-item#coffee"
-    ],
-    "props":{
-      "orientation": "vertical"
-    }
-  },
-  "vtex.menu@2.x:submenu#small":{
-    "children":[
-      "vtex.menu@2.x:menu#small"
-    ]
-  },
-  "vtex.menu@2.x:menu#electronics": {
-    "children": [
-      "menu-item#cameras",
-      "menu-item#laptops",
-      "menu-item#tvs"
-    ],
-    "props":{
-      "orientation": "vertical"
-    }
-  },
-  "vtex.menu@2.x:submenu#electronics":{
-    "children":[
-      "vtex.menu@2.x:menu#electronics"
-    ]
-  }  
+  }
 }
