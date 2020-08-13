@@ -37,10 +37,5 @@
           "alt": "Coffee Makers Collection",
           "maxWidth": "200px"
         }
-    },
-    "flex-layout.col#menu":{
-        "children": [
-            "vtex.menu@2.x:menu#major"
-        ]
     }
   }
