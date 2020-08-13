@@ -1,6 +1,6 @@
 {
     "vtex.menu@2.x:submenu#major": {
-        "children":[ "vtex.menu@2.x:menu#major", "flex-layout.row#major" ]
+        "children":[ "vtex.menu@2.x:menu#major","flex-layout.col#menu" ]
     },
   "vtex.menu@2.x:menu#major": {
     "children": [
@@ -18,6 +18,11 @@
         "flex-layout.col#img"
       ]
     },
+    "flex-layout.col#menu": {
+        "children": [
+           "vtex.menu@2.x:menu#major"
+        ]
+      },
     "flex-layout.col#img":{
         "children": [
             "image#menu",
